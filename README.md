@@ -43,7 +43,7 @@ AUTHOR:
   ```
   #iconutil -c icns "$OUT\iOS.iconset
   ```
-* Use the generated icons. If you run script for Steam, **compress linux-*.png into a zip file**.
+* Use the generated icons. For Steam client images, open <OUTPUT>\steam folder, **compress linux-*.png into a zip file**.
 #### Troubleshooting Guide
 * Permission denied
   ```
