@@ -28,7 +28,7 @@ AUTHOR:
 * Prepare **just one image** for use as your all icon. **The image file must be 1024x1024 pixels png format.**
 * Run the shell-script(.sh) you want. If all you want, just run all.sh. For example:
   ```
-  all.sh my-icon.png icons
+  all.sh icon.png icons
   ```
 * If you want to gererate **ios iconset**, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
 * Use the generated icon.
