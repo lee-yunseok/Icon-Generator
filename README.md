@@ -2,7 +2,7 @@
 [![Donate Me](https://img.shields.io/badge/Built%20by-Lee%20Yunseok-purple.svg?style=popout&logo=paypal&maxAge=999999)](https://paypal.me/leeyunseok) [![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=popout&logo=Patreon&maxAge=999999)](https://www.patreon.com/bePatron?u=347743) [ ![GitHub commits](https://img.shields.io/github/commits-since/lee-yunseok/Icon-Generator/6804852.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator/commits/master) [![License](https://img.shields.io/github/license/lee-yunseok/Icon-Generator.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator#license)
 
 ## Description
-Shell scripts to generate many app icons more easier for developers. This [cloned repository](https://github.com/smallmuou/ios-icon-generator) has added scripts to restore old ImageMagick versions of scripts and create icons for various platforms.
+Shell scripts to generate many app icons more easier for developers. This [cloned repository](https://github.com/smallmuou/ios-icon-generator) has added scripts to restore old ImageMagick versions of script and create icons for various platforms.
 
 <pre>
 VERSION: 1.0.0
