@@ -41,7 +41,7 @@ AUTHOR:
   ```
 * If you want to **iOS iconset** in your Mac, before run the script, open _**ios.sh**_ or _**all.sh**_ and **remove '#'** in the line below.
   ```
-  #iconutil -c icns "$OUT\iOS.iconset
+  #iconutil -c icns "$OUT\iOS.iconset"
   ```
 * Use the generated icons. For Steam client images, open _OUTPUT\steam_ folder, **compress _linux-*.png_ into a zip file**.
 #### Troubleshooting Guide
