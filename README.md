@@ -23,8 +23,8 @@ AUTHOR:
 * Humble Store(widget) - **humble.sh**
 * App Store App(iOS/macOS/watchOS) - **ios.sh**
 * Android App(not adaptive icon) - **android.sh**
-* Windows ICO - **ico.sh**
-* macOS ICNS - **icns.sh**
+* Windows Ico - **ico.sh**
+* macOS Icns - **icns.sh**
 * Website favicon - included in **ico.sh**
 * Safari extention - included in **icns.sh**
 ### Usage
@@ -39,11 +39,11 @@ AUTHOR:
   ```
   all.sh icon.png icons
   ```
-* If you want to **iOS iconset** in your Mac, before run the script, open **ios.sh** or **all.sh** and **remove '#'** in the line below.
+* If you want to **iOS iconset** in your Mac, before run the script, open _**ios.sh**_ or _**all.sh**_ and **remove '#'** in the line below.
   ```
   #iconutil -c icns "$OUT\iOS.iconset
   ```
-* Use the generated icons. For Steam client images, open <OUTPUT>\steam folder, **compress linux-*.png into a zip file**.
+* Use the generated icons. For Steam client images, open _OUTPUT\steam_ folder, **compress _linux-*.png_ into a zip file**.
 #### Troubleshooting Guide
 * Permission denied
   ```
