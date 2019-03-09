@@ -12,9 +12,8 @@ EXAMPLE:
     all.sh icon.png icons
 DESCRIPTION:
     This scripts aim to generate many app icons easier and simply.
-
-    INPUT - The source png image must be 1024x1024 pixels.
-    OUTPUT - The destination path where the icons generate to.
+    **INPUT** - The source png image must be 1024x1024 pixels.
+    **OUTPUT** - The destination path where the icons generate to.
 AUTHOR:
     Lee Yunseok <thericke00@gmail.com>
     smallmuou <smallmuou@163.com>
