@@ -49,7 +49,7 @@ DESCRIPTION:
     This script aim to generate app icons easier and simply.
     IN - The source png image must be 1024x1024 pixels.
     OUT - The destination path where the icons generate to.
-    This script is depend on ImageMagick. So you must install ImageMagick first
+    This script is depend on ImageMagick. So you must install ImageMagick first.
     https://www.imagemagick.org/
 AUTHOR:
     Lee Yunseok <thericke00@gmail.com>
