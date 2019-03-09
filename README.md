@@ -38,7 +38,7 @@ AUTHOR:
   all.sh icon.png icons
   ```
 * If you want to gererate **ios iconset** in your macOS, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
-* Use the generated icon. If you run script for Steam, compress linux-*.png into a zip file.
+* Use the generated icon. If you run script for Steam, **compress linux-*.png into a zip file**.
 
 ### License
 This script is covered by the terms of the MIT license.
