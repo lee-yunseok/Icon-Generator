@@ -39,8 +39,13 @@ AUTHOR:
   ```
 * If you want to gererate **ios iconset** in your macOS, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
 * Use the generated icon. If you run script for Steam, **compress linux-*.png into a zip file**.
-
-### License
+#### Troubleshooting Guide
+* Permission Denied
+  ```
+  chmod 777 <FILENAME>.sh
+  ```
+* If you have any other problem or request, just submit an [issue](https://github.com/lee-yunseok/Icon-Generator/issues).
+#### License
 This script is covered by the terms of the MIT license.
 ```
 MIT License
