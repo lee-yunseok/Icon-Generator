@@ -30,7 +30,7 @@ AUTHOR:
   ```
   all.sh icon.png icons
   ```
-* If you want to gererate **ios iconset**, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
+* If you want to gererate **ios iconset** in your macOS, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
 * Use the generated icon.
 
 ### License
