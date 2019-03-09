@@ -25,8 +25,8 @@ AUTHOR:
 * Android App(not adaptive icon) - **android.sh**
 * Windows ICO - **ico.sh**
 * macOS ICNS - **icns.sh**
-* Website favicon - **included in ico.sh**
-* Safari extention - **included in icns.sh**
+* Website favicon - included in **ico.sh**
+* Safari extention - included in **icns.sh**
 ### Usage
 
 * Install [ImageMagick](https://www.imagemagick.org/) on your device.
