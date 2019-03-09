@@ -4,7 +4,7 @@
 ## Description
 Shell scripts to generate many app icons more easier for developers. This [cloned repository](https://github.com/smallmuou/ios-icon-generator) has added scripts to restore old ImageMagick versions of script and create icons for various platforms.
 
-<pre>
+```
 VERSION: 1.0.0
 USAGE:
     SH INPUT OUTPUT
@@ -12,12 +12,12 @@ EXAMPLE:
     all.sh icon.png icons
 DESCRIPTION:
     This scripts aim to generate many app icons easier and simply.
-    **INPUT** - The source png image must be 1024x1024 pixels.
-    **OUTPUT** - The destination path where the icons generate to.
+    INPUT - The source png image must be 1024x1024 pixels.
+    OUTPUT - The destination path where the icons generate to.
 AUTHOR:
     Lee Yunseok <thericke00@gmail.com>
     smallmuou <smallmuou@163.com>
-</pre>
+```
 
 ### Usage
 
