@@ -25,7 +25,7 @@ AUTHOR:
 * clone this repository:
   * git clone https://github.com/lee-yunseok/Icon-Generator
 * Prepare **just one image** for use as your all icon. **The image file must be 1024x1024 pixels png format.**
-* Run the shell-script(.sh) you want. If all you want, just run all.sh. For example:
+* Run the shell-script(.sh) you want. If you want all platforms, just run all.sh. For example:
   ```
   all.sh icon.png icons
   ```
