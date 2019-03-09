@@ -44,7 +44,7 @@ usage() {
 cat << EOF
 VERSION: $VERSION
 USAGE:
-    $0 IN OUT
+    SH IN OUT
 DESCRIPTION:
     This script aim to generate windows icons easier and simply.
     IN - The source png image preferably above 256x256 pixels.

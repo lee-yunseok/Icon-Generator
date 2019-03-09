@@ -44,7 +44,7 @@ usage() {
 cat << EOF
 VERSION: $VERSION
 USAGE:
-    $0 IN OUT
+    SH IN OUT
 DESCRIPTION:
     This script aim to generate iOS.iconset app icons easier and simply.
     IN - The source png image must be 1024x1024 pixels.
