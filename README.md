@@ -46,7 +46,7 @@ AUTHOR:
   ```
 * If you have any other problem or request, just submit an [issue](https://github.com/lee-yunseok/Icon-Generator/issues).
 #### License
-This script is covered by the terms of the MIT license.
+Icon Generator is covered by the terms of the MIT license.
 ```
 MIT License
 
