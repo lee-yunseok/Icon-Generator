@@ -47,8 +47,8 @@ USAGE:
     $0 IN OUT
 DESCRIPTION:
     This script aim to generate android app icons easier and simply.
-    srcfile - The source png image preferably above 192x192 pixels.
-    dstpath - The destination path where the icons generate to.
+    IN - The source png image preferably above 192x192 pixels.
+    OUT - The destination path where the icons generate to.
     This script is depend on ImageMagick. So you must install ImageMagick first
     https://www.imagemagick.org/
 AUTHOR:

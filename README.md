@@ -1,90 +1,58 @@
-# iOS/macOS/watchOS APP ICONS Generator
+# ICON GENERATOR
 
-### Description
-ios-icon-generator is a shell script which aim to generate iOS/macOS/watchOS APP icons easier and simply.
-![image](https://github.com/smallmuou/ios-icon-generator/blob/master/ios-icon-generator.gif)
+## Description
+Shell scripts to generate many app icons more easier for developers. This [cloned repository](https://github.com/smallmuou/ios-icon-generator) has added scripts to restore old ImageMagick versions of scripts and create icons for various platforms.
+
 <pre>
-VERSION: 2.0.0
+VERSION: 1.0.0
 USAGE:
-    ./ios-icon-generator.sh srcfile dstpath
-
-DESCRIPTION:
-    This script aim to generate iOS/macOS/watchOS APP icons easier and simply.
-
-    srcfile - The source png image. Preferably above 1024x1024
-    dstpath - The destination path where the icons generate to.
-
-AUTHOR:
-    smallmuou<smallmuou@163.com>
-
+    SH INPUT OUTPUT
 EXAMPLE:
-    ./ios-icon-generator.sh 1024.png ~/123
+    all.sh icon.png icons
+DESCRIPTION:
+    This scripts aim to generate many app icons easier and simply.
 
+    IN - The source png image must be 1024x1024 pixels.
+    OUT - The destination path where the icons generate to.
+AUTHOR:
+    Lee Yunseok <thericke00@gmail.com>
+    smallmuou <smallmuou@163.com>
 </pre>
 
 ### Usage
 
-1. Clone
-```bash
-git clone https://github.com/smallmuou/ios-icon-generator
-cd ios-icon-generator
-chmod 777 ios-icon-generator.sh
+* install [ImageMagick](https://www.imagemagick.org/) on your device.
+* clone this repository
+git clone https://github.com/lee-yunseok/Icon-Generator
+* Prepare just one image for use as your all icon. The image file must be 1024x1024 pixels png format.
+* run the shell-script(.sh) you want. If all you want, just run all.sh
 ```
-
-2. Run
-	
-```bash
-smou:ios-icon-generator $ ./ios-icon-generator.sh 1024.png ~/output/
-[INFO] Generate Icon-16.png ...
-[INFO] Generate Icon-16@2x.png ...
-[INFO] Generate Icon-32.png ...
-[INFO] Generate Icon-32@2x.png ...
-[INFO] Generate Icon-128.png ...
-[INFO] Generate Icon-128@2x.png ...
-[INFO] Generate Icon-256.png ...
-[INFO] Generate Icon-256@2x.png ...
-[INFO] Generate Icon-512.png ...
-[INFO] Generate Icon-512@2x.png ...
-[INFO] Generate Icon-20@2x.png ...
-[INFO] Generate Icon-20@3x.png ...
-[INFO] Generate Icon-29@2x.png ...
-[INFO] Generate Icon-29@3x.png ...
-[INFO] Generate Icon-40@2x.png ...
-[INFO] Generate Icon-40@3x.png ...
-[INFO] Generate Icon-60@2x.png ...
-[INFO] Generate Icon-60@3x.png ...
-[INFO] Generate Icon-76@2x.png ...
-[INFO] Generate Icon-83.5@2x.png ...
-[INFO] Generate Icon-1024.png ...
-[INFO] Generate Icon-24@2x.png ...
-[INFO] Generate Icon-27.5@2x.png ...
-[INFO] Generate Icon-86@2x.png ...
-[INFO] Generate Icon-98@2x.png ...
-[INFO] Generate Icon-108@2x.png ...
-[INFO] Generate Icon-44@2x.png ...
-[INFO] Generate Icon-50@2x.png ...
-[INFO] Congratulation. All icons for iOS/macOS/watchOS APP are generate to the directory: /Users/smou/output/.
+all.sh INPUT(png image file) OUTPUT(folder)
 ```
-PS: You can find out the icons in ~/output directory.
-
-### Refer
-* [iOS Icons Size](https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/)
-* [macOS Icons Size](https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/)	
-* [watchOS Icons Size](https://developer.apple.com/design/human-interface-guidelines/watchos/icons-and-images/home-screen-icons/)
-
-### History
-* 2.0.0
-    * Update iOS icons size
-    * Support macOS icons size
-    * Support watchOS icons size
-    * Remove ImageMagick Dependency
-    * Update code structure for add size more easy.
-
-* 1.0.0
-	* Generate all size icons for iPhone and iPad.
 
 ### License
-This script follow MIT license.
+This script is covered by the terms of the MIT license.
+```
+MIT License
 
-### Contact
-If you have any question with using it, you can email to me. My email is: lvyexuwenfa100@126.com
+Copyright (c) 2019 Lee Yunseok <thericke00@gmail.com>
+Copyright (c) 2018 smallmuou <smallmuou@163.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

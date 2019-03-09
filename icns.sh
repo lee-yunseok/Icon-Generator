@@ -47,8 +47,8 @@ USAGE:
     $0 IN OUT
 DESCRIPTION:
     This script aim to generate windows icons easier and simply.
-    srcfile - The source png image must be 1024x1024 pixels.
-    dstpath - The destination path where the icons generate to.
+    IN - The source png image must be 1024x1024 pixels.
+    OUT - The destination path where the icons generate to.
     This script is depend on ImageMagick. So you must install ImageMagick first
     https://www.imagemagick.org/
 AUTHOR:

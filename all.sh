@@ -46,10 +46,10 @@ VERSION: $VERSION
 USAGE:
     $0 IN OUT
 DESCRIPTION:
-    This script aim to generate iOS.iconset app icons easier and simply.
+    This script aim to generate app icons easier and simply.
     IN - The source png image must be 1024x1024 pixels.
     OUT - The destination path where the icons generate to.
-    This script is depend on ImageMagick. So you must install ImageMagick first.
+    This script is depend on ImageMagick. So you must install ImageMagick first
     https://www.imagemagick.org/
 AUTHOR:
     Lee Yunseok <thericke00@gmail.com>
@@ -72,13 +72,64 @@ fi
 if [ ! -d "$OUT" ];then
     mkdir -p "$OUT"
 fi
+if [ ! -d "$OUT\steam" ];then
+    mkdir -p "$OUT\steam"
+fi
+if [ ! -d "$OUT\humble" ];then
+    mkdir -p "$OUT\humble"
+fi
+if [ ! -d "$OUT\ico" ];then
+    mkdir -p "$OUT\ico"
+fi
+if [ ! -d "$OUT\icns" ];then
+    mkdir -p "$OUT\icns"
+fi
 if [ ! -d "$OUT\iOS.iconset" ];then
     mkdir -p "$OUT\iOS.iconset"
 fi
+if [ ! -d "$OUT\android" ];then
+    mkdir -p "$OUT\android"
+fi
 
-# iOS.iconset sizes refer to https://developer.apple.com/design/human-interface-guidelines/iOS.iconset/icons-and-images/app-icon/
-# macos sizes refer to https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/
-# watchos sizes refer to https://developer.apple.com/design/human-interface-guidelines/watchos/icons-and-images/home-screen-icons/
+info 'Generate linux-16.png ...'
+convert "$IN" -resize 16x16 "$OUT\steam\linux-16.png"
+info 'Generate linux-24.png ...'
+convert "$IN" -resize 24x24 "$OUT\steam\linux-24.png"
+info 'Generate linux-32.png ...'
+convert "$IN" -resize 32x32 "$OUT\steam\linux-32.png"
+info 'Generate linux-64.png ...'
+convert "$IN" -resize 64x64 "$OUT\steam\linux-64.png"
+info 'Generate linux-96.png ...'
+convert "$IN" -resize 96x96 "$OUT\steam\linux-96.png"
+info 'Generate linux-256.png ...'
+convert "$IN" -resize 256x256 "$OUT\steam\linux-256.png"
+info 'Generate mac-32.icns ...'
+convert "$OUT\steam\linux-32.png" "$OUT\steam\mac-32.icns"
+info 'Generate windows-32.ico ...'
+convert "$OUT\steam\linux-32.png" -define icon "$OUT\steam\windows-32.ico"
+
+info 'Generate icon-57.png ...'
+convert "$IN" -resize 57x57 "$OUT\humble\icon-57.png"
+info 'Generate icon-256.png ...'
+convert "$IN" -resize 256x256 "$OUT\humble\icon-256.png"
+info 'Generate icon-512.png ...'
+convert "$IN" -resize 512x512 "$OUT\humble\icon-512.png"
+
+info 'Generate favicon-16.ico ...'
+convert "$IN" -resize 16x16 -define icon "$OUT\ico\favicon-16.ico"
+info 'Generate favicon-32.ico ...'
+convert "$IN" -resize 32x32 -define icon "$OUT\ico\favicon-32.ico"
+info 'Generate icon-256.ico ...'
+convert "$IN" -resize 256x256 -define icon "$OUT\ico\icon-256.ico"
+
+info 'Generate safari-32.png for Safari extension ...'
+convert "$IN" -resize 32x32 "$OUT\icns\icon-32.png"
+info 'Generate icon-32.icns for PDF or Finder, Sidebar ...'
+convert "$OUT\icns\icon-32.png" "$OUT\icns\icon-32.icns"
+info 'Generate icon-256.icns for OS X 10.5+ ...'
+convert "$IN" -resize 256x256 "$OUT\icns\icns-256.icns"
+info 'Generate icon-1024.icns for OS X 10.7+ ...'
+convert "$IN" "$OUT\icns\icon-1024.icns"
 
 info 'Generate Icon-16.png ...'
 convert "$IN" -resize 16x16 "$OUT\iOS.iconset\Icon-16.png"
@@ -150,5 +201,18 @@ info 'Generate iTunesArtwork@2x.png ...'
 cp "$IN" "$OUT\iOS.iconset\iTunesArtwork@2x.png"
 
 #iconutil -c icns "$OUT\iOS.iconset"
+
+info 'Generate icon-ldpi.png ...'
+convert "$IN" -resize 36x36 "$OUT\android\icon-ldpi.png"
+info 'Generate icon-mdpi.png ...'
+convert "$IN" -resize 48x48 "$OUT\android\icon-mdpi.png"
+info 'Generate icon-hdpi.png ...'
+convert "$IN" -resize 72x72 "$OUT\android\icon-hdpi.png"
+info 'Generate icon-xhdpi.png ...'
+convert "$IN" -resize 96x96 "$OUT\android\icon-xhdpi.png"
+info 'Generate icon-xxhdpi.png ...'
+convert "$IN" -resize 144x144 "$OUT\android\icon-xxhdpi.png"
+info 'Generate icon-xxxhdpi.png ...'
+convert "$IN" -resize 192x192 "$OUT\android\icon-xxxhdpi.png"
 
 info 'Generate Done.'
