@@ -18,7 +18,15 @@ AUTHOR:
     Lee Yunseok <thericke00@gmail.com>
     smallmuou <smallmuou@163.com>
 ```
-
+### Supported Icons
+* Steam(client images) - **steam.sh**
+* Humble Store(widget) - **humble.sh**
+* App Store App(iOS/macOS/watchOS) - **ios.sh**
+* Android App(not adaptive icon) - **android.sh**
+* Windows ICO - **ico.sh**
+* macOS ICNS - **icns.sh**
+* Website favicon - **included in ico.sh**
+* Safari extention - **included in icns.sh**
 ### Usage
 
 * Install [ImageMagick](https://www.imagemagick.org/) on your device.
@@ -30,7 +38,7 @@ AUTHOR:
   all.sh icon.png icons
   ```
 * If you want to gererate **ios iconset** in your macOS, before run the script, just **remove '#'** before **iconutil -c icns "$OUT\iOS.iconset"** in the **ios.sh** or **all.sh**.
-* Use the generated icon.
+* Use the generated icon. If you run script for Steam, compress linux-*.png into a zip file.
 
 ### License
 This script is covered by the terms of the MIT license.
