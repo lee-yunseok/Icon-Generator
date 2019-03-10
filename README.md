@@ -26,7 +26,7 @@ AUTHOR:
 * Windows Ico - **ico.sh**
 * macOS Icns - **icns.sh**
 * Website favicon - included in **ico.sh**
-* Safari extention - included in **icns.sh**
+* Safari extension - included in **icns.sh**
 ### Usage
 
 * Install [ImageMagick](https://www.imagemagick.org/) on your device.
