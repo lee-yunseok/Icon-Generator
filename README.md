@@ -20,6 +20,7 @@ AUTHOR:
 ```
 ### Supported Icons
 * Steam(client images) - **steam.sh**
+* Steam(achievement and trading card images) - **items.sh**
 * Humble Store(widget) - **humble.sh**
 * App Store App(iOS/macOS/watchOS) - **ios.sh**
 * Android App(not adaptive icon) - **android.sh**
@@ -42,6 +43,10 @@ AUTHOR:
 * If you want to **iOS iconset** in your Mac, before run the script, open _**ios.sh**_ or _**all.sh**_ and **remove '#'** in the line below.
   ```
   #iconutil -c icns "$OUT\iOS.iconset"
+  ```
+* Note that the script of Steam achievements and trading cards is not included in _all.sh_ because it requires image set. After preparing a set of images above 256x256 pixels, you have to use **items.sh** for it.
+  ```
+  items.sh icons icons
   ```
 * Use the generated icons. For Steam client images, open _OUTPUT\steam_ folder, **compress _linux-*.png_ into a zip file**.
 #### Troubleshooting Guide
