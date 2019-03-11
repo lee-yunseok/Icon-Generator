@@ -47,7 +47,7 @@ USAGE:
     SH IN OUT
 DESCRIPTION:
     This script aim to generate steam achievement and trading card images easier and simply.
-    IN - The source png images preferably above 256x256 pixels with a border.
+    IN - The source png images preferably above 256x256 pixels and it does not matter if it has a border.
     OUT - The destination path where the icons generate to.
     This script is depend on ImageMagick. So you must install ImageMagick first.
     https://www.imagemagick.org/
