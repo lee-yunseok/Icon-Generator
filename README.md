@@ -44,7 +44,7 @@ AUTHOR:
   ```
   #iconutil -c icns "$OUT\iOS.iconset"
   ```
-* Note that the script of Steam achievements and trading cards is not included in _all.sh_ because it requires image set. After preparing a set of images above 256x256 pixels, you have to use **items.sh** for it.
+* Note that the script of Steam achievements and trading cards are not included in _all.sh_ because it requires image set. After preparing a set of images above 256x256 pixels, you have to use **items.sh** for it.
   ```
   items.sh icons icons
   ```
