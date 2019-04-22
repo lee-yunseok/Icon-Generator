@@ -15,7 +15,7 @@ DESCRIPTION:
     INPUT - The source png image must be 1024x1024 pixels.
     OUTPUT - The destination path where the icons generate to.
 AUTHOR:
-    Lee Yunseok <thericke00@gmail.com>
+    Lee Yunseok <ironyunseok@protonmail.com>
     smallmuou <smallmuou@163.com>
 ```
 ### Supported Icons
@@ -60,7 +60,7 @@ Icon Generator is covered by the terms of the MIT license.
 ```
 MIT License
 
-Copyright (c) 2019 Lee Yunseok <thericke00@gmail.com>
+Copyright (c) 2019 Lee Yunseok <ironyunseok@protonmail.com>
 Copyright (c) 2018 smallmuou <smallmuou@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2019 Lee Yunseok <thericke00@gmail.com>
+# Copyright (C) 2019 Lee Yunseok <ironyunseok@protonmail.com>
 # Copyright (c) 2018 smallmuou <smallmuou@163.com>
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -52,7 +52,7 @@ DESCRIPTION:
     This script is depend on ImageMagick. So you must install ImageMagick first.
     https://www.imagemagick.org/
 AUTHOR:
-    Lee Yunseok <thericke00@gmail.com>
+    Lee Yunseok <ironyunseok@protonmail.com>
     smallmuou <smallmuou@163.com>
 LICENSE:
     This script is covered by the terms of the MIT license.
