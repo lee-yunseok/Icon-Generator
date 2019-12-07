@@ -1,5 +1,5 @@
-# ICON GENERATOR
-[![Donate Me](https://img.shields.io/badge/Built%20by-Lee%20Yunseok-purple.svg?style=popout&logo=paypal&maxAge=999999)](https://paypal.me/leeyunseok) [![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=popout&logo=Patreon&maxAge=999999)](https://www.patreon.com/bePatron?u=347743) [ ![GitHub commits](https://img.shields.io/github/commits-since/lee-yunseok/Icon-Generator/6804852.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator/commits/master) [![License](https://img.shields.io/github/license/lee-yunseok/Icon-Generator.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator#license)
+# ICON GENERATOR FOR GAME DEVELOPERS
+[![Donate Me](https://img.shields.io/badge/Built%20by-Lee%20Yunseok-purple.svg?style=popout&logo=paypal&maxAge=999999)](https://paypal.me/leeyunseok) [![Become a Patron](https://img.shields.io/badge/Become%20a-Patron-f96854.svg?style=popout&logo=Patreon&maxAge=999999)](https://www.patreon.com/bePatron?u=347743) [ ![GitHub commits](https://img.shields.io/github/commits-since/lee-yunseok/Icon-Generator-for-Game-Developers/6804852.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator/commits/master) [![License](https://img.shields.io/github/license/lee-yunseok/Icon-Generator-for-Game-Developers.svg?style=popout&logo=github)](https://github.com/lee-yunseok/Icon-Generator-for-Game-Developers#license)
 
 ## Description
 Shell scripts to generate many app icons more easier for developers. This [cloned repository](https://github.com/smallmuou/ios-icon-generator) has added scripts to restore old **ImageMagick** version and create icons for various platforms.
@@ -33,7 +33,7 @@ AUTHOR:
 * Install [ImageMagick](https://www.imagemagick.org/) on your device.
 * clone this repository:
   ```
-  git clone https://github.com/lee-yunseok/Icon-Generator
+  git clone https://github.com/lee-yunseok/Icon-Generator-for-Game-Developers
   ```
 * Prepare **just one image** for use as your all icon. **The image file must be 1024x1024 pixels png format.**
 * Run the shell-script(.sh) you want. If you want all icons, just run _all.sh_. For example:
@@ -54,7 +54,7 @@ AUTHOR:
   ```
   chmod 777 <FILENAME>.sh
   ```
-* If you have any other problem or request, just submit an [issue](https://github.com/lee-yunseok/Icon-Generator/issues).
+* If you have any other problem or request, just submit an [issue](https://github.com/lee-yunseok/Icon-Generator-for-Game-Developers/issues).
 #### License
 Icon Generator is covered by the terms of the MIT license.
 ```
